@@ -1,5 +1,5 @@
-# iFu-Linux
-NSCSCC 2024 for [iFuCore](). 
+# iFuLinux
+iFuLinux  for [iFuProcessor]() in NSCSCC 2024
 
 We used [la32r-Linux](https://gitee.com/loongson-edu/la32r-Linux) as a prototype and also modified it by referring to the way of [NOP-Core](https://github.com/NOP-Processor/NOP-Core) project.
 
@@ -10,9 +10,11 @@ We used [la32r-Linux](https://gitee.com/loongson-edu/la32r-Linux) as a prototype
 ```bash
 ./setrootfs.sh
 ```
-and the results in ./initrd_pck32
+results in ./initrd_pck32
 
 - Configure initramfs path in `arch/loongarch/configs/la32_defconfig`
+
+our rootfs is Adapted from [La32r-Linux-Releases](https://gitee.com/loongson-edu/la32r-Linux/releases/download/v0.2/initrd_d.tar.gz)
 
 
 ## Build
@@ -27,3 +29,5 @@ export CROSS_COMPILE=/home/toolchains/loongarch32r-linux-*/bin/loongarch32r-linu
 ```bash
 ./la_build.sh
 ```
+
+[相关链接](https://www.sanguosha.com/)

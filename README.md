@@ -1,7 +1,7 @@
 # iFuLinux
 iFuLinux  for [iFuProcessor]() in NSCSCC 2024
 
-We used [la32r-Linux](https://gitee.com/loongson-edu/la32r-Linux) as a prototype and also modified it by referring to the way of [NOP-Core](https://github.com/NOP-Processor/NOP-Core) project.
+We used [la32r-Linux](https://gitee.com/loongson-edu/la32r-Linux) as a prototype and also modified it referring to [NOP-Core](https://github.com/NOP-Processor/NOP-Core) project.
 
 
 ## ROOTFS
@@ -30,4 +30,5 @@ export CROSS_COMPILE=/home/toolchains/loongarch32r-linux-*/bin/loongarch32r-linu
 ./la_build.sh
 ```
 
-[相关链接](https://www.sanguosha.com/)
+---
+[不相关链接](https://www.sanguosha.com/)
